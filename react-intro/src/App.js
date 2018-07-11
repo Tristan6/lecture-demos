@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class HelloMessage extends Component {
     render() {
-        let message = "Hooray!";
+        let message = "Hello World!";
         return <h1>{message}</h1>;
     }
 }
@@ -24,8 +24,6 @@ class ButtonList extends Component {
 
 class Button extends Component {
     render() {
-        // console.log(this.props);
-
         let className = "btn btn-primary rounded-circle";
         if (this.props.size === 'lg') {
             className += ' btn-lg';
@@ -56,3 +54,4 @@ export default class App extends Component {
         );
     }
 }
+
